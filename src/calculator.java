@@ -18,9 +18,9 @@ public class calculator {
 
             double result = performCalculation(num1, num2, operator);
             if (result == (int) result) {
-                System.out.println("Result: " + (int) result);  // Print as integer if no decimal part
+                System.out.println("Result: " + (int) result);
             } else {
-                System.out.println("Result: " + result);  // Print as double if there's a decimal part
+                System.out.println("Result: " + result);
             }
         }
 
